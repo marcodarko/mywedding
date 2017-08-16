@@ -2,4 +2,186 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  /*background-color: #323232;*/
+}
+
+.option{
+ background-color: #224b80;
+ color: white;
+ font-weight: bolder;
+ margin-bottom: 0px;
+ border-radius: 0px;
+ cursor: pointer;
+}
+
+.option:hover{
+	color: white;
+	font-weight: bolder;
+	margin-bottom: 0px;
+	border-radius: 0px;
+	cursor: pointer;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#10af8f+0,224b80+100 */
+background: rgb(16,175,143); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(16,175,143,1) 0%, rgba(34,75,128,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(16,175,143,1) 0%,rgba(34,75,128,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(16,175,143,1) 0%,rgba(34,75,128,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10af8f', endColorstr='#224b80',GradientType=0 ); /* IE6-9 */
+}
+
+.animatedBack{
+	background: linear-gradient(270deg, #10af8f, #224b80);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@font-face {
+    font-family: cookiesFont;
+    src: url(./resources/cookies.ttf);
+}
+
+@font-face {
+    font-family: handFont;
+    src: url(./resources/hand.ttf);
+}
+
+@font-face {
+    font-family: titleFont;
+    src: url(./resources/title.ttf);
+}
+
+a{
+	color:lightgrey;
+	text-decoration: none;
+}
+
+a:hover{
+	color:white;
+	text-decoration: none;
+}
+
+a:visited{
+	color:white;
+	text-decoration: none;
+}
+
+a:focus{
+	color:white;
+	text-decoration: none;
+}
+
+.listNoDec{
+	list-style: none;
+}
+
+.roundPhoto{
+	border-radius: 100%;
+	width: 70%;
+	padding: 10px;
+	box-shadow: 2px 2px 2px #224b80;
+	opacity: 1;
+}
+
+.roundPhoto:hover{
+	border-radius: 100%;
+	width: 70%;
+	padding: 10px;
+	box-shadow: 1px 1px 1px #224b80;
+	opacity: .8;
+}
+
+.beachBackBlue{
+	background-color: #224b80;
+	/*background-blend-mode: soft-light;*/
+	background-image: url('./resources/beach.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.noMargin{
+	margin: 0;
+}
+
+.rounded{
+	border-radius: 10px;
+}
+
+.bigText{
+	font-size: 12vw;
+}
+
+.medText{
+	font-size: 6vw;
+}
+
+.noRounded{
+	border-radius: 0px;
+}
+
+.titleFont{
+	font-family: titleFont;
+	font-stretch: expanded;
+}
+
+.handFont{
+	font-family: handFont;
+}
+
+.cookiesFont{
+	font-family: cookiesFont;
+}
+
+.whiteText{
+	color: white;
+}
+
+.greenText{
+	color: #10af8f;
+}
+
+.blueText{
+	color: #224b80;
+}
+
+.backBlue{
+	background-color: #224b80;
+}
+
+.backGreen{
+	background-color: #10af8f;
+}
+
+.backGradient{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+1,224b80+25,224b80+53,224b80+75,000000+100&0+1,0.79+25,0.79+53,0.79+76,0+100 */
+background: -moz-linear-gradient(left, rgba(0,0,0,0) 1%, rgba(34,75,128,0.79) 25%, rgba(34,75,128,0.79) 53%, rgba(34,75,128,0.79) 75%, rgba(33,72,123,0.79) 76%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(0,0,0,0) 1%,rgba(34,75,128,0.79) 25%,rgba(34,75,128,0.79) 53%,rgba(34,75,128,0.79) 75%,rgba(33,72,123,0.79) 76%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(0,0,0,0) 1%,rgba(34,75,128,0.79) 25%,rgba(34,75,128,0.79) 53%,rgba(34,75,128,0.79) 75%,rgba(33,72,123,0.79) 76%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+
+.transparent{
+	background-color: transparent;
+}
+
+.backWhite{
+	background-color: white;
 }
