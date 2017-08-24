@@ -12,7 +12,7 @@ export default class Footer extends React.Component {
       	<div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <h4 className="titleFont">ABOUT US</h4>
           <hr/>
-          <p>It was love at first swipe. Yup we met on <em>Tinder</em>. Marco <i>Super Liked</i> and the rest is history. </p>
+          <p>It was love at first swipe. Yup we met on <em>Tinder</em>. Marco <i>Super Liked</i> Conor and the rest is history. </p>
         </div>
         <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <h4 className="titleFont">ADDITIONAL INFO</h4>
@@ -22,10 +22,37 @@ export default class Footer extends React.Component {
         <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <h4 className="titleFont">CONTACT US</h4>
           <hr/>
-          <a target='_blank' rel="noopener noreferrer" href='mailto: artofmarco@gmail.com'><i className="fa fa-envelope-o" aria-hidden="true"></i> Marco</a>
-          <br/>
-          <a target='_blank' rel="noopener noreferrer" href='mailto: onorjamesfoley@gmail.com'><i className="fa fa-envelope-o" aria-hidden="true"></i> Conor</a>
-         
+          <table className="table">
+            <tbody>
+            <tr>
+                <td colSpan='2'>
+                  Conor
+                </td>
+              </tr>
+              <tr>
+                <td>
+                   <a target='_blank' rel="noopener noreferrer" href='tel: 415-846-5476'><i className="fa fa-phone fa-2x" aria-hidden="true"></i></a>
+                </td>
+                <td>
+                  <a target='_blank' rel="noopener noreferrer" href='mailto: conorjamesfoley@gmail.com'><i className="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <td colSpan='2'>
+                  Marco
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a target='_blank' rel="noopener noreferrer" href='tel:7608152082'><i className="fa fa-phone fa-2x" aria-hidden="true"></i></a>
+                </td>
+                <td>
+                   <a target='_blank' rel="noopener noreferrer" href='mailto:artofmarco@gmail.com'><i className="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+                </td>
+                
+              </tr>
+            </tbody>
+          </table>
         </div>
         <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <h4 className="titleFont">FOLLOW US</h4>
@@ -33,6 +60,7 @@ export default class Footer extends React.Component {
           <a target='_blank' rel="noopener noreferrer" href='https://www.facebook.com/mdarko2'><i className="fa fa-facebook-square" aria-hidden="true"></i> Marco</a>
           <br/>
           <a target='_blank' rel="noopener noreferrer" href='https://www.facebook.com/falconerjmoosey'><i className="fa fa-facebook-square" aria-hidden="true"></i> Conor</a>
+          
         </div>
         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" style={{fontSize:'10px'}}>
           <p>Marco Alvarado Copyright 2017</p>
