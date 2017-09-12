@@ -129,19 +129,19 @@ export default class Directions extends React.Component {
     return (
       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
       	<div onClick={this.selectDirections} className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 jumbotron option" style={{borderRadius:'0px'}}>
-      		<i className="fa fa-map fa-2x heartbeat" aria-hidden="true"></i>  <h5 className="titleFont">DIRECTIONS</h5>
+      		<i className="fa fa-map fa-2x" aria-hidden="true"></i>  <h5 className="titleFont">DIRECTIONS</h5>
       	</div>
       	<div onClick={this.selectParking} className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 jumbotron option" style={{borderRadius:'0px'}}>
-      		<i className="fa fa-car fa-2x heartbeat" aria-hidden="true"></i>  <h5 className="titleFont">PARKING</h5>
+      		<i className="fa fa-car fa-2x" aria-hidden="true"></i>  <h5 className="titleFont">PARKING</h5>
       	</div>
       	<div onClick={this.selectAccomodations} className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-4 jumbotron option" style={{borderRadius:'0px'}}>
-      		<i className="fa fa-hotel fa-2x heartbeat" aria-hidden="true"></i>  <h5 className="titleFont">ACCOMODATIONS</h5>
+      		<i className="fa fa-hotel fa-2x" aria-hidden="true"></i>  <h5 className="titleFont">ACCOMODATIONS</h5>
       	</div>
       	{this.state.renderThis === "directions" && this.renderDirections()}
       	{this.state.renderThis === "accomodations" && this.renderAccomodations()}
       	{this.state.renderThis === "parking" && this.renderParking()}
       	{this.state.renderThis === "" &&
-      	<div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding20 jello-horizontal">
+      	<div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding20">
       		<h3>Thank you for joining us on our special day!</h3>
       		<hr/>
       		<p>Click on the options above for Directions and Parking Information</p>

@@ -17,7 +17,8 @@ export default class Footer extends React.Component {
         <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <h4 className="titleFont">ADDITIONAL INFO</h4>
           <hr/>
-          
+          <h5>Venue Address</h5>
+          <p>6311 County Hwy S21, Carlsbad, CA 92008</p>
         </div>
         <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <h4 className="titleFont">CONTACT US</h4>
@@ -31,10 +32,10 @@ export default class Footer extends React.Component {
               </tr>
               <tr>
                 <td>
-                   <a target='_blank' rel="noopener noreferrer" href='tel: 415-846-5476'><i className="fa fa-phone fa-2x" aria-hidden="true"></i></a>
+                   <a target='_blank' rel="noopener noreferrer" href='tel: 415-846-5476'><i className="fa fa-phone " aria-hidden="true"></i> Phone</a>
                 </td>
                 <td>
-                  <a target='_blank' rel="noopener noreferrer" href='mailto: conorjamesfoley@gmail.com'><i className="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+                  <a target='_blank' rel="noopener noreferrer" href='mailto: conorjamesfoley@gmail.com'><i className="fa fa-envelope-o " aria-hidden="true"></i> E-mail</a>
                 </td>
               </tr>
               <tr>
@@ -44,10 +45,10 @@ export default class Footer extends React.Component {
               </tr>
               <tr>
                 <td>
-                  <a target='_blank' rel="noopener noreferrer" href='tel:7608152082'><i className="fa fa-phone fa-2x" aria-hidden="true"></i></a>
+                  <a target='_blank' rel="noopener noreferrer" href='tel:7608152082'><i className="fa fa-phone " aria-hidden="true"></i> Phone</a>
                 </td>
                 <td>
-                   <a target='_blank' rel="noopener noreferrer" href='mailto:artofmarco@gmail.com'><i className="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+                   <a target='_blank' rel="noopener noreferrer" href='mailto:artofmarco@gmail.com'><i className="fa fa-envelope-o " aria-hidden="true"></i> E-mail</a>
                 </td>
                 
               </tr>
@@ -57,9 +58,9 @@ export default class Footer extends React.Component {
         <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <h4 className="titleFont">FOLLOW US</h4>
           <hr/>
-          <a target='_blank' rel="noopener noreferrer" href='https://www.facebook.com/mdarko2'><i className="fa fa-facebook-square" aria-hidden="true"></i> Marco</a>
+          <a target='_blank' rel="noopener noreferrer" href='https://www.facebook.com/mdarko2'><i className="fa fa-facebook-square fa-2x" aria-hidden="true"></i> Marco</a>
           <br/>
-          <a target='_blank' rel="noopener noreferrer" href='https://www.facebook.com/falconerjmoosey'><i className="fa fa-facebook-square" aria-hidden="true"></i> Conor</a>
+          <a target='_blank' rel="noopener noreferrer" href='https://www.facebook.com/falconerjmoosey'><i className="fa fa-facebook-square fa-2x" aria-hidden="true"></i> Conor</a>
           
         </div>
         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" style={{fontSize:'10px'}}>
