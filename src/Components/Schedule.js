@@ -10,9 +10,14 @@ export default class Schedule extends React.Component {
     return (
       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 
-      <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-      	<h3 className='titleFont'>May 19, 2018</h3>
-       <p>f fdsjafhsdafnhv kkadfhfkh dsakk kv k kk kfk kgfk ksd k</p>
+      <div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+      	<h2 className='titleFont bold'>SCHEDULE</h2>
+       <p>Saturday May 19, 2018</p>
+       <hr/>
+       <p>Carlsbad beach happens to be the perfect place to gather and welcome you all to our wedding celebration! 
+       <br/>This is a casual gathering, and we would love to see you there. We hope you'll join us in witnessing and celebrating our commitment to one another. 
+       <br/>We know that we would love to see everyone we love so much celebrate with us.</p>
+       <hr/>
       </div>
 
       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 animatedBack whiteText">
@@ -25,42 +30,49 @@ export default class Schedule extends React.Component {
       		<tbody>
       			<tr>
       				<td>
-      					Arrival
+      					N/A
       				</td>
       				<td>
-      					10 AM
-      				</td>
-      			</tr>
-      			<tr>
-      				<td>
-      					Arrival
-      				</td>
-      				<td>
-      					10 AM
+      					N/A
       				</td>
       			</tr>
       			<tr>
       				<td>
-      					Arrival
+      					N/A
       				</td>
       				<td>
-      					10 AM
+      					N/A
       				</td>
       			</tr>
       			<tr>
       				<td>
-      					End
+      					N/A
       				</td>
       				<td>
-      					8 PM
+      					N/A
+      				</td>
+      			</tr>
+      			<tr>
+      				<td>
+      	         N/A
+      				</td>
+      				<td>
+      				N/A
       				</td>
       			</tr>
       		</tbody>
       	</table>
       	</div>
 
-      	<div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-      	 <p>f fdsjafhsdafnhv kkadfhfkh dsakk kv k kk kfk kgfk ksd k</p>
+      	<div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+        <h1 className='titleFont'>ADDITIONAL INFORMATION</h1>
+        <hr/>
+          <h2 className='titleFont bold'>ATTIRE</h2>
+      	 <p>While our wedding is in more of a "beachy" setting, we are asking that guests come dressed in Formal attire. 
+         <br/>We want to share our day with everyone and take lots of pictures, so come dressed to impress! 
+         <br/>A nice skirt or dress, or slacks and a button up/ light blazer will do. 
+         <br/>We definitely want you to be comfortable so come prepared for coastal weather.</p>
+         <hr/>
       	</div>
 
       </div>

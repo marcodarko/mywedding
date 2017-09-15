@@ -368,7 +368,7 @@ a:focus{
 	width: 70%;
 	padding: 10px;
 	box-shadow: 2px 2px 2px #224b80;
-	opacity: 1;
+	opacity: .8;
 }
 
 .roundPhoto:hover{
@@ -376,8 +376,20 @@ a:focus{
 	width: 70%;
 	padding: 10px;
 	box-shadow: 1px 1px 1px #224b80;
-	opacity: .8;
+	opacity: 1;
 }
+
+.roundPic{
+  border-radius: 100%;
+  padding: 10px;
+  box-shadow: 2px 2px 2px #224b80;
+  opacity: 1;
+}
+
+hr{
+  border: 2px #10af8f solid;
+}
+
 
 .beachBackBlue{
 	background-color: #224b80;
@@ -427,6 +439,15 @@ a:focus{
 
 .roundFont{
   font-family: roundFont;
+}
+
+.bold{
+  font-weight: bolder;
+}
+
+p{
+  font-family: titleFont;
+  font-size: 1.5em;
 }
 
 @font-face {

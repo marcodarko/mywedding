@@ -21,12 +21,12 @@ export default class Navbar extends React.Component {
 	        </div>
 
 	        <div className="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
-	            <ul className="nav navbar-nav roundFont" >
-	            	<li><Link to='/'>home</Link></li>
-	                <li><Link to='/party'>party</Link></li>
-	                <li><Link to='/schedule'>schedule</Link></li>
-	                <li><Link to='/directions'>directions</Link></li>
-	                <li><Link to='/registry'>registry</Link></li>
+	            <ul className="nav navbar-nav waterFont" >
+	            	<li><Link to='/'>Home</Link></li>
+	                <li><Link to='/party'>Party</Link></li>
+	                <li><Link to='/schedule'>Schedule </Link></li>
+	                <li><Link to='/directions'>Directions</Link></li>
+	                <li><Link to='/registry'>Registry</Link></li>
 	            </ul>
 	        </div>
 	    </div>

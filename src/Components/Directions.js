@@ -114,11 +114,25 @@ export default class Directions extends React.Component {
   			<div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding20">
   				<h1 className="titleFont">ACCOMODATIONS</h1>
   				<hr/>
+            
+            <p>There is a tons of Hotels in the area and a few just across the street from our venue!</p>
+            
+             <div className="backBlue col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding20 whiteText"> 
+             <h2><i className="fa fa-bed greenText" aria-hidden="true"></i> Stay in Carlsbad</h2>
+            <hr/> 
+            <a target='_blank' rel="noopener noreferrer" href="http://www.carlsbadseapointe.com/"><span className="glyphicon glyphicon-bed greenText" aria-hidden="true"></span>   Carlsbad Seapointe</a>
+            <br/>
+            <a target='_blank' rel="noopener noreferrer" href="http://hiltongardeninn3.hilton.com/en/hotels/california/hilton-garden-inn-carlsbad-beach-SANCHGI/index.html"><span className="glyphicon glyphicon-bed greenText" aria-hidden="true"></span>   Hilton Garden Inn Carlsbad Beach</a>
+            <br/>
+            <a target='_blank' rel="noopener noreferrer" href="https://www.caperey.com/"> <span className="glyphicon glyphicon-bed greenText" aria-hidden="true"></span>  Cape Rey Carlsbad</a>
+            </div>
+           
+          <hr/>
   				<div className="well backBlue whiteText rounded">
   				 	<h2><i className="fa fa-sun-o greenText" aria-hidden="true"></i> Camp at the <em>South Carlsbad State Beach</em></h2>
   				 	<hr/>
   				 	<p>For General information on the <b>South Carlsbad State Beach</b> please visit their <b><a href='http://www.parks.ca.gov/?page_id=660' target='_blank' rel="noopener noreferrer"> Website</a></b></p>
-  				    <p>You may also call <a target='_blank' rel="noopener noreferrer" href='tel:7604383143'><i className="fa fa-phone fa-2x" aria-hidden="true"></i> (760) 438-3143</a></p>
+  				    <p>You may also call <a target='_blank' rel="noopener noreferrer" href='tel:7604383143'><i className="fa fa-phone greenText" aria-hidden="true"></i> (760) 438-3143</a></p>
   					<p>To make a reservation online you can visit <b><a href='https://www.reservecalifornia.com/CaliforniaWebHome/' target='_blank' rel="noopener noreferrer"> Reserve California</a></b></p>
   				</div>
   			</div>
