@@ -5,6 +5,12 @@ body {
   /*background-color: #323232;*/
 }
 
+.navFont{
+  font-size: 1.5em;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
 .option{
  background-color: #224b80;
  color: white;
@@ -12,6 +18,7 @@ body {
  margin-bottom: 0px;
  border-radius: 0px;
  cursor: pointer;
+ color: #10af8f;
 }
 
 .option:hover{
@@ -20,6 +27,7 @@ body {
 	margin-bottom: 0px;
 	border-radius: 0px;
 	cursor: pointer;
+  color:white;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#10af8f+0,224b80+100 */
 background: rgb(16,175,143); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(16,175,143,1) 0%, rgba(34,75,128,1) 100%); /* FF3.6-15 */
@@ -27,6 +35,8 @@ background: -webkit-linear-gradient(top, rgba(16,175,143,1) 0%,rgba(34,75,128,1)
 background: linear-gradient(to bottom, rgba(16,175,143,1) 0%,rgba(34,75,128,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10af8f', endColorstr='#224b80',GradientType=0 ); /* IE6-9 */
 }
+
+
 
 .jello-horizontal {
 	-webkit-animation: jello-horizontal 0.9s both;
@@ -386,6 +396,23 @@ a:focus{
   opacity: 1;
 }
 
+.roundPicReg{
+   border-radius: 100%;
+  padding: 10px;
+  box-shadow: 2px 2px 2px #224b80;
+  opacity: 1;
+  background-color: transparent;
+}
+
+.roundPicReg:hover{
+   border-radius: 100%;
+  padding: 10px;
+  box-shadow: 2px 2px 2px #224b80;
+  opacity: 1;
+  background-color: white;
+}
+
+
 hr{
   border: 2px #10af8f solid;
 }
@@ -499,6 +526,19 @@ p{
 
 .blueText{
 	color: #224b80;
+}
+
+.shadow{
+  text-shadow: 2px 2px 2px #224b80;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.rotate {
+  animation: App-logo-spin infinite 20s linear;
 }
 
 .backBlue{

@@ -6,10 +6,15 @@ export default class Gallery extends React.Component {
     super(props);
     this.state={
     	mypics:[
-    	"./images/img1.jpg",
+    	"./images/swing.gif",
     	"./images/img2.jpg",
+      "./images/museum.gif",
+      "./images/bananas.jpg",
     	"./images/img3.jpg",
-    	"./images/img4.jpg"
+      "./images/neo.gif",
+    	"./images/img4.jpg",
+      "./images/fair.gif",
+      "./images/img1.jpg"
     	],
     	pic1:0,
     	pic2:1,
@@ -19,7 +24,7 @@ export default class Gallery extends React.Component {
   }
 
   componentDidMount(){
-  	setInterval(this.rotate,4000);
+  	setInterval(this.rotate,3000);
   }
 
   rotate(){
@@ -61,6 +66,9 @@ export default class Gallery extends React.Component {
   render() {
     return (
       <div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center blueText titleFont">
+        <h2>GALLERY</h2>
+      </div>
       	<div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
       		<img src={this.state.mypics[this.state.pic1]} alt="gallery" className="galleryItem"/>
       	</div>

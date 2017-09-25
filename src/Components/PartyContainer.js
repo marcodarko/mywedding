@@ -22,24 +22,24 @@ export default class MainWrapper extends React.Component {
           <hr/>
           <h2 className="titleFont blueText">How We Met</h2>
           <p>A tale as old as time, boy downloads Tinder..boy swipes right...other boy swipes right too...Ok, just kidding! 
-          <br/>But we knew instantly that we were a match. We had similar sense of humor and we are both kinda geeky.</p>
+          <br/>But we knew instantly that we were a match and the rest is history...</p>
           <p></p>
           
           <hr/>
         </div>
       
-          <h2 className="titleFont">Parents</h2>
+          <h2 className="titleFont">Family</h2>
           <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-6">
-          <Profile photo={'https://www.1plusx.com/app/mu-plugins/all-in-one-seo-pack-pro/images/default-user-image.png'} name={'Maria Cano'} roleAt={'Mother'}/>
+          <Profile  name={'Maria Cano'} roleAt={'Mother'}/>
           </div>
           <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-6">
-            <Profile photo={'https://www.1plusx.com/app/mu-plugins/all-in-one-seo-pack-pro/images/default-user-image.png'} name={'Eric Alvarado'} roleAt={'Brother'}/>
+            <Profile  name={'Eric Alvarado'} roleAt={'Brother'}/>
           </div>
           <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-6">
-          <Profile photo={'https://www.1plusx.com/app/mu-plugins/all-in-one-seo-pack-pro/images/default-user-image.png'} name={'Morgan Foley'} roleAt={'Father'}/>
+          <Profile  name={'Morgan Foley'} roleAt={'Father'}/>
           </div>
           <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-6">
-            <Profile photo={'https://www.1plusx.com/app/mu-plugins/all-in-one-seo-pack-pro/images/default-user-image.png'} name={'Sandra Foley'} roleAt={'Mother'}/>
+            <Profile  name={'Sandra Foley'} roleAt={'Mother'}/>
           </div>
                
         <h2 className="titleFont bold">Best People</h2>

@@ -24,40 +24,40 @@ export default class Schedule extends React.Component {
       	<table className='table'>
       		<thead>
       			<tr>
-      				<td colSpan="2"><h3 className="titleFont">SCHEDULE</h3></td>
+      				<td colSpan="2"><h3 className="titleFont"><span className="glyphicon glyphicon-cog whiteText rotate" aria-hidden="true"></span> SCHEDULE</h3></td>
       			</tr>
       		</thead>
       		<tbody>
       			<tr>
       				<td>
-      					N/A
+      					TBD
       				</td>
       				<td>
-      					N/A
-      				</td>
-      			</tr>
-      			<tr>
-      				<td>
-      					N/A
-      				</td>
-      				<td>
-      					N/A
+      					TBD
       				</td>
       			</tr>
       			<tr>
       				<td>
-      					N/A
+      					TBD
       				</td>
       				<td>
-      					N/A
+      					TBD
       				</td>
       			</tr>
       			<tr>
       				<td>
-      	         N/A
+      					TBD
       				</td>
       				<td>
-      				N/A
+      					TBD
+      				</td>
+      			</tr>
+      			<tr>
+      				<td>
+      	         TBD
+      				</td>
+      				<td>
+      				TBD
       				</td>
       			</tr>
       		</tbody>
@@ -67,7 +67,7 @@ export default class Schedule extends React.Component {
       	<div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
         <h1 className='titleFont'>ADDITIONAL INFORMATION</h1>
         <hr/>
-          <h2 className='titleFont bold'>ATTIRE</h2>
+          <h2 className='titleFont bold'><span className="glyphicon glyphicon-sunglasses greenText" aria-hidden="true"></span> ATTIRE</h2>
       	 <p>While our wedding is in more of a "beachy" setting, we are asking that guests come dressed in Formal attire. 
          <br/>We want to share our day with everyone and take lots of pictures, so come dressed to impress! 
          <br/>A nice skirt or dress, or slacks and a button up/ light blazer will do. 

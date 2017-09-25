@@ -15,9 +15,9 @@ export default class Footer extends React.Component {
           <p>It was love at first swipe. Yup we met on <em>Tinder</em>. Marco <i>Super Liked</i> Conor and the rest is history. </p>
         </div>
         <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
-          <h4 className="titleFont">ADDITIONAL INFO</h4>
+          <h4 className="titleFont">ADDRESS</h4>
           <hr/>
-          <h5>Venue Address</h5>
+          <h5>Pelican Point</h5>
           <p>6311 County Hwy S21, Carlsbad, CA 92008</p>
         </div>
         <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
