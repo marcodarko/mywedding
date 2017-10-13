@@ -54,7 +54,7 @@ export default class Directions extends React.Component {
   				
   					<p><i className="fa fa-map-marker greenText" aria-hidden="true"></i> Get on I-5 South</p>
   					<p><i className="fa fa-map-marker greenText" aria-hidden="true"></i> Follow I-5 South to <b>Palomar Airport Road</b></p>
-  					<p><i className="fa fa-map-marker greenText" aria-hidden="true"></i> Take exit <b>47</b> from I-5 North</p>
+  					<p><i className="fa fa-map-marker greenText" aria-hidden="true"></i> Take exit <b>47</b> from I-5 South</p>
   					<p><i className="fa fa-map-marker greenText" aria-hidden="true"></i> Keep right to continue onto <b>Carlsbad Blvd</b></p>
   					<p><i className="fa fa-map-pin greenText" aria-hidden="true"></i> <b>Pelican Point</b> will be on your right side</p>
   				

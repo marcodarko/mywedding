@@ -68,7 +68,7 @@ export default class Schedule extends React.Component {
         <h1 className='titleFont'>ADDITIONAL INFORMATION</h1>
         <hr/>
           <h2 className='titleFont bold'><span className="glyphicon glyphicon-sunglasses greenText" aria-hidden="true"></span> ATTIRE</h2>
-      	 <p>While our wedding is in more of a "beachy" setting, we are asking that guests come dressed in Formal attire. 
+      	 <p>While our wedding is in more of a "beachy" setting, we are asking that guests come dressed in cocktail attire. 
          <br/>We want to share our day with everyone and take lots of pictures, so come dressed to impress! 
          <br/>A nice skirt or dress, or slacks and a button up/ light blazer will do. 
          <br/>We definitely want you to be comfortable so come prepared for coastal weather.</p>
