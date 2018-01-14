@@ -119,6 +119,7 @@ export default class Directions extends React.Component {
             
              <div className="backBlue col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding20 whiteText"> 
              <h2><i className="fa fa-bed greenText" aria-hidden="true"></i> Stay in Carlsbad</h2>
+			 <img src="./images/cape.jpg" width="70%" alt='cape rey carlsbad' className="rounded"/>
             <hr/> 
             <a target='_blank' rel="noopener noreferrer" href="http://www.carlsbadseapointe.com/"><span className="glyphicon glyphicon-bed greenText" aria-hidden="true"></span>   Carlsbad Seapointe</a>
             <br/>
@@ -132,6 +133,7 @@ export default class Directions extends React.Component {
           <hr/>
   				<div className="well backBlue whiteText rounded">
   				 	<h2><i className="fa fa-sun-o greenText" aria-hidden="true"></i> Camp at the <em>South Carlsbad State Beach</em></h2>
+					   <img src="./images/camp.jpg" width="70%" alt='camp in carlsbad' className="rounded"/>
   				 	<hr/>
             <p><b>We are exploring rates and options, if you definitely want to camp here let us know!</b></p>
   				 	<p>For General information on the <b>South Carlsbad State Beach</b> please visit their <b><a href='http://www.parks.ca.gov/?page_id=660' target='_blank' rel="noopener noreferrer"> Website</a></b></p>
@@ -159,6 +161,7 @@ export default class Directions extends React.Component {
       	{this.state.renderThis === "parking" && this.renderParking()}
       	{this.state.renderThis === "" &&
       	<div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding20">
+		  	<img src="./images/initials.png" alt='CandM' className="rounded"/>
       		<h2 className="titleFont bold">Thank you for joining us on our special day!</h2>
       		<hr/>
       		<p>Click on the options above for Directions and Parking Information</p>

@@ -67,7 +67,9 @@ export default class Gallery extends React.Component {
     return (
       <div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center blueText titleFont">
-        <h2>GALLERY</h2>
+        <hr/>
+				<h2>GALLERY</h2>
+				<hr/>
       </div>
       	<div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
       		<img src={this.state.mypics[this.state.pic1]} alt="gallery" className="galleryItem"/>

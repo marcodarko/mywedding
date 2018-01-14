@@ -31,7 +31,8 @@ export default class Registry extends React.Component {
     return (
       <div className=" padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
       	<h2 className="titleFont blueText bold">REGISTRY</h2>
-        <p>We are so thankful for any and everything you all would like to contribute. <br/>These registries are filled with things to start life in a new home in the near future. <br/>We would also be forever grateful for a contribution to our honeymoon instead!</p>
+        <img src="./images/registry.png" alt="registry" className="rounded"/>
+        <p>We are so thankful for any and everything you all would like to contribute. <br/>These registries are filled with things to start life in a new home in the near future. <br/>We would also be forever grateful for a contribution to our honeymoon as well!</p>
         <hr/>
         {this.chosen === true && this.thank()}
 

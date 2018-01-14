@@ -427,6 +427,15 @@ hr{
 	background-size: cover;
 }
 
+.tileback{
+	background-color: #224b80;
+	/*background-blend-mode: soft-light;*/
+	background-image: url('./resources/main.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .noMargin{
 	margin: 0;
 }
