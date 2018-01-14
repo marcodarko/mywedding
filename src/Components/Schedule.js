@@ -14,7 +14,7 @@ export default class Schedule extends React.Component {
       	<h2 className='titleFont bold'>SCHEDULE</h2>
        <p>Saturday May 19, 2018</p>
        <hr/>
-	   <img src="./images/pano.jpg" width="100%" className="rounded"/>
+	   <img src="./images/pano.jpg" width="100%" className="rounded" alt="panorama"/>
        <p>Carlsbad beach happens to be the perfect place to gather and welcome you all to our wedding celebration! 
        <br/>This is a casual gathering, and we would love to see you there. We hope you'll join us in witnessing and celebrating our commitment to one another. 
        <br/>We know that we would love to see everyone we love so much celebrate with us.</p>
@@ -66,7 +66,7 @@ export default class Schedule extends React.Component {
       	</div>
 
       	<div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-		  <img src="./images/pano2.jpg" width="100%" className="rounded"/>
+		  <img src="./images/pano2.jpg" width="100%" className="rounded" alt="attire"/>
         <hr/>
           <h2 className='titleFont bold'><span className="glyphicon glyphicon-sunglasses greenText" aria-hidden="true"></span> ATTIRE</h2>
 		 
