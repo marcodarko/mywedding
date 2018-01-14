@@ -21,7 +21,7 @@ export default class MainWrapper extends React.Component {
         <div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <hr/>
           <h2 className="titleFont blueText">How We Met</h2>
-          <img src="./images/us.jpg" height="200px" className="roundPic"/>
+          <img src="./images/us.jpg" height="200px" className="roundPic" alt="illustration of us"/>
           <p>A tale as old as time, boy downloads Tinder..boy swipes right...other boy swipes right too...Ok, just kidding! 
           <br/>But we knew instantly that we were a match  and the rest is history...</p>
           <p></p>
