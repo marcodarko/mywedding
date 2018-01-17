@@ -460,6 +460,18 @@ hr{
 	font-size: 6vw;
 }
 
+.pic{
+  opacity: .5;
+}
+
+.pic:hover{
+  opacity: 1;
+}
+
+.noPadding{
+  padding: 0px;
+}
+
 .noRounded{
 	border-radius: 0px;
 }

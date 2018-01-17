@@ -32,7 +32,7 @@ export default class Footer extends React.Component {
           <h5>#ConorAndMarco</h5>
         </div>
         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" style={{fontSize:'10px'}}>
-          <p>Marco Alvarado Copyright 2017</p>
+          <p>Marco Alvarado Copyright 2018</p>
         </div>
       </div>
     );

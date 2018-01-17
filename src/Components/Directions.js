@@ -66,7 +66,8 @@ export default class Directions extends React.Component {
   				<h1 className="titleFont">DIRECTIONS</h1>
   				<hr/>
   				<h2>Pelican Point</h2>
-				<h3><i className="fa fa-map-marker greenText" aria-hidden="true"></i> 6311 County Hwy S21, Carlsbad, CA 92008</h3>
+				<a rel="noopener noreferrer" target="_blank" href="https://www.google.com/maps/place/6311+County+Hwy+S21,+Carlsbad,+CA+92008/@33.1126168,-117.3254062,17z/data=!3m1!4b1!4m5!3m4!1s0x80dc72dd62b640ef:0xad89bc3b8e9d951b!8m2!3d33.112616!4d-117.323212">
+				<h3 className="greenText"><i className="fa fa-map-marker greenText" aria-hidden="true"></i> 6311 County Hwy S21, Carlsbad, CA 92008</h3></a>
 				<hr/>
   				<h4>Coming from San Diego</h4>
   				

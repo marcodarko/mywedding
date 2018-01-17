@@ -38,10 +38,10 @@ export default class Registry extends React.Component {
         <p><span className="glyphicon glyphicon-exclamation-sign greenText" aria-hidden="true"></span> You can search for our registry using our names: <b>Marco Cano</b> or <b>Conor Foley</b>.</p>
         <div className="well center-text animatedBack whiteText rounded col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-        <a  rel="noopener noreferrer" target="_blank" href="https://www.crateandbarrel.com/gift-registry/marco-cano-and-conor-foley/r5788984"><img src="./images/crate.jpg" className="roundPhoto" alt="CrateAndBarrel"/></a>
+        <a  rel="noopener noreferrer" target="_blank" href="https://www.crateandbarrel.com/gift-registry/marco-cano-and-conor-foley/r5788984"><img src="./images/crate.jpg" className="roundPhoto jello-horizontal" alt="CrateAndBarrel"/></a>
         </div>
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-        <a  rel="noopener noreferrer" target="_blank" href="http://www.honeyfund.com/wedding/ConorAndMarco"><img src="./images/honeyfund.jpg" className="roundPhoto" alt="CrateAndBarrel"/></a>
+        <a  rel="noopener noreferrer" target="_blank" href="http://www.honeyfund.com/wedding/ConorAndMarco"><img src="./images/honeyfund.jpg" className="roundPhoto jello-horizontal" alt="CrateAndBarrel"/></a>
         </div>
       
       </div>

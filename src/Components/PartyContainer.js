@@ -18,17 +18,24 @@ export default class MainWrapper extends React.Component {
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <Profile photo={'./images/conormain.jpg'} name={'Conor Foley'} roleAt={'Groom'}/>
         </div>
+        <div className="noMargin noPadding col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <img className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 noMargin noPadding" src="./images/us.jpg" alt="engagement"/>
+            <img className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 noMargin noPadding" src="./images/tvrory.jpg" alt="tv and rory"/>
+            <img className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 noMargin noPadding" src="./images/destiny.jpg" alt="destiny"/>
+            <img className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 noMargin noPadding" src="./images/uncharted.jpg" alt="uncharted"/>
+          </div>
         <div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <hr/>
           <h2 className="titleFont blueText">How We Met</h2>
-          <img src="./images/us.jpg" height="200px" className="roundPic partyPhoto" alt="illustration of us"/>
+          <img src="./images/match.jpg" height="300px" className="roundPic partyPhoto" alt="illustration of us"/>
           <br/>
-          <p>A tale as old as time, boy downloads Tinder..boy swipes right...other boy swipes right too...Ok, just kidding! 
-          <br/>But we knew instantly that we were a match  and the rest is history...</p>
+          <p>A tale as old as time, boy downloads Tinder..boy swipes right...other boy swipes right too...
+          <br/>We knew instantly that we were a match  and the rest is herstory...</p>
           <p></p>
           
           <hr/>
         </div>
+          
           <br/>
           <div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <h2 className="titleFont">Family</h2>
