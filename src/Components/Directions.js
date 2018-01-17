@@ -1,11 +1,38 @@
 import React from 'react';
+import Hotel from './Hotel';
 
 export default class Directions extends React.Component {
 
   constructor(props) {
     super(props);
     this.state={
-    	renderThis:''
+		renderThis:'',
+		hotels:[
+			{
+				name:'Carlsbad SeaPointe Resort',
+				link:'http://www.carlsbadseapointe.com/',
+				photo:'./images/hotel1.jpg',
+				price:'$169',
+				location:'0.2 Miles',
+				stars:'4'
+			},
+			{
+				name:'Hilton Garden Inn',
+				link:'http://hiltongardeninn3.hilton.com/en/hotels/california/hilton-garden-inn-carlsbad-beach-SANCHGI/index.html',
+				photo:'./images/hotel2.jpg',
+				price:'$129',
+				location:'0.6 Miles',
+				stars:'4'
+			},
+			{
+				name:'Cape Rey Carlsbad Hilton',
+				link:'https://www.caperey.com/',
+				photo:'./images/hotel3.jpg',
+				price:'$151',
+				location:'2.3 Miles',
+				stars:'4'
+			}
+		]
     }
     this.renderDirections = this.renderDirections.bind(this);
     this.renderParking = this.renderParking.bind(this);
@@ -80,7 +107,13 @@ export default class Directions extends React.Component {
   				<thead>
   					<tr>
   						<td colSpan='2'>
-  							<p><i className="fa fa-exclamation-circle greenText" aria-hidden="true"></i> We higly encourage you to carpool, parking can be tough near the beach</p>
+  							<p><i className="fa fa-exclamation-circle greenText" aria-hidden="true"></i> There are <b>59 public spaces</b> next to our venue.
+							  <br/>These spaces cannot be reserved and they're open to public so we ask you to allow yourself enough time to find parking.
+							  <br/>Other parking options are:</p>
+							  <ul className="listGreen">
+								  <li>Uber from Carlsbad Outlet Mall to Pelican Point, Carlsbad State Beach</li>
+								  <li>Public Parking from Hotels across the street (SeaPointe, Cape Rey)</li>
+							  </ul>
   						</td>
   					</tr>
   				</thead>
@@ -90,7 +123,7 @@ export default class Directions extends React.Component {
 	  						<i className="fa fa-car fa-2x greenText" aria-hidden="true"></i>
 	  					</td>
 	  					<td className='text-left'>
-	  						<span style={{fontSize:'1.3em'}} className="greenText">Street Parking</span>
+	  						<span style={{fontSize:'1.3em'}} className="greenText">Public Parking</span>
 	  					</td>
 	  				</tr>
 	  				<tr>
@@ -98,20 +131,29 @@ export default class Directions extends React.Component {
 	  						<i className="fa fa-car fa-2x blueText" aria-hidden="true"></i>
 	  					</td>
 	  					<td className='text-left'>
-	  						<span style={{fontSize:'1.3em'}} className="blueText">Limited Parking (TBA)</span>
+	  						<span style={{fontSize:'1.3em'}} className="blueText">Reserved Parking (Wedding Party Only)</span>
 	  					</td>
 	  				</tr>
   				</tbody>
   				</table>
 				<hr/>
 				<img src='./images/mapParking.jpg' alt='parking map' className='rounded fullWidth'/><br/>
+				<hr/>
+				<h2 className="titleFont">See You There!</h2>
+				<div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<img src='./images/lifeguard.jpg' alt='lifeguard' className='roundPhoto'/>
+				</div>
+				<div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<img src='./images/stateBeach.jpg' alt='sign' className='roundPhoto'/>
+				</div>
+				
   			</div>
   		)
   }
 
   renderAccomodations(){
   	return(
-  			<div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding20">
+  			<div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding20 rounded">
   				<h1 className="titleFont">ACCOMODATIONS</h1>
   				<hr/>
             
@@ -119,16 +161,11 @@ export default class Directions extends React.Component {
             
              <div className="backBlue col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding20 whiteText"> 
              <h2><i className="fa fa-bed greenText" aria-hidden="true"></i> Stay in Carlsbad</h2>
-			 <img src="./images/cape.jpg" width="70%" alt='cape rey carlsbad' className="rounded"/>
             <hr/> 
-            <a target='_blank' rel="noopener noreferrer" href="http://www.carlsbadseapointe.com/"><span className="glyphicon glyphicon-bed greenText" aria-hidden="true"></span>   Carlsbad Seapointe</a>
-            <br/>
-            <br/>
-            <a target='_blank' rel="noopener noreferrer" href="http://hiltongardeninn3.hilton.com/en/hotels/california/hilton-garden-inn-carlsbad-beach-SANCHGI/index.html"><span className="glyphicon glyphicon-bed greenText" aria-hidden="true"></span>   Hilton Garden Inn Carlsbad Beach</a>
-            <br/>
-            <br/>
-            <a target='_blank' rel="noopener noreferrer" href="https://www.caperey.com/"> <span className="glyphicon glyphicon-bed greenText" aria-hidden="true"></span>  Cape Rey Carlsbad</a>
-            </div>
+            {this.state.hotels && this.state.hotels.map( (doc,index)=>{
+				return <Hotel name={doc.name} stars={doc.stars} location={doc.location} price={doc.price} photo={doc.photo} link={doc.link} key={index}/>
+			})}
+			</div>
            
           <hr/>
   				<div className="well backBlue whiteText rounded">

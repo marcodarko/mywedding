@@ -18,14 +18,19 @@ export default class Gallery extends React.Component {
     	],
     	pic1:0,
     	pic2:1,
-    	pic3:2
+			pic3:2,
+			myInt: null
     }
     this.rotate = this.rotate.bind(this);
   }
 
   componentDidMount(){
-  	setInterval(this.rotate,3000);
-  }
+  	this.myInt= setInterval(this.rotate,3000);
+	}
+	
+	componentWillUnmount(){
+		clearInterval(this.myInt);
+	}
 
   rotate(){
   	let Len = this.state.mypics.length;
@@ -72,13 +77,13 @@ export default class Gallery extends React.Component {
 				<hr/>
       </div>
       	<div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
-      		<img src={this.state.mypics[this.state.pic1]} alt="gallery" className="galleryItem"/>
+      		<img src={this.state.mypics[this.state.pic1]} alt="gallery" className="galleryItem partyPhoto"/>
       	</div>
       	<div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
-      		<img src={this.state.mypics[this.state.pic2]} alt="gallery" className="galleryItem"/>
+      		<img src={this.state.mypics[this.state.pic2]} alt="gallery" className="galleryItem partyPhoto"/>
       	</div>
       	<div className="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs-12">
-      		<img src={this.state.mypics[this.state.pic3]} alt="gallery" className="galleryItem"/>
+      		<img src={this.state.mypics[this.state.pic3]} alt="gallery" className="galleryItem partyPhoto"/>
       	</div>
       </div>
     );

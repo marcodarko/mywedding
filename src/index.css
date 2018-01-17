@@ -444,6 +444,14 @@ hr{
 	border-radius: 10px;
 }
 
+.partyPhoto{
+  filter: grayscale();
+}
+
+.partyPhoto:hover{
+  filter: none;
+}
+
 .bigText{
 	font-size: 12vw;
 }
@@ -535,6 +543,23 @@ p{
 
 .blueText{
 	color: #224b80;
+}
+
+.listGreen{
+  color:#10af8f;
+  list-style: none;
+}
+
+a{
+  color: #10af8f;
+}
+
+a:visited{
+  color: #10af8f;
+}
+
+a:hover{
+  color:white;
 }
 
 .shadow{

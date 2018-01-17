@@ -2,9 +2,28 @@ import React from 'react';
 
 export default class Schedule extends React.Component {
 
-  // constructor(props) {
-  //   super(props);
-  // }
+  constructor(props) {
+	super(props);
+	this.state={
+		schedule:[
+			{
+				title:"Arrive",time:"2:00 PM"
+			},
+			{
+				title:"Cocktails",time:"2:00 PM"
+			},
+			{
+				title:"Ceremony",time:"3:00 PM"
+			},
+			{
+				title:"Food",time:"4:00 PM"
+			},
+			{
+				title:"End",time:"9:00 PM"
+			}
+		]
+	}
+  }
 
   render() {
     return (
@@ -29,38 +48,17 @@ export default class Schedule extends React.Component {
       			</tr>
       		</thead>
       		<tbody>
-      			<tr>
-      				<td>
-      					Start
-      				</td>
-      				<td>
-      					2:00 PM
-      				</td>
-      			</tr>
-      			<tr>
-      				<td>
-      					Ceremony
-      				</td>
-      				<td>
-						3:00 PM
-      				</td>
-      			</tr>
-      			<tr>
-      				<td>
-      					Food
-      				</td>
-      				<td>
-      					5:00 PM
-      				</td>
-      			</tr>
-      			<tr>
-      				<td>
-						End
-      				</td>
-      				<td>
-						10:00 PM
-      				</td>
-      			</tr>
+      			
+      			{this.state.schedule && this.state.schedule.map( (doc,index)=>{
+					  return (<tr key={index}>
+								<td>
+									{doc.title}
+								</td>
+								<td>
+									{doc.time}
+								</td>
+							</tr>)
+  				})}
       		</tbody>
       	</table>
       	</div>
@@ -68,17 +66,32 @@ export default class Schedule extends React.Component {
       	<div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 		  <img src="./images/pano2.jpg" width="100%" className="rounded" alt="attire"/>
         <hr/>
+		<div className="padding20 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
           <h2 className='titleFont bold'><span className="glyphicon glyphicon-sunglasses greenText" aria-hidden="true"></span> ATTIRE</h2>
 		 
-      	 <p>While our wedding is in more of a "beachy" setting, we are asking that guests come dressed in cocktail attire. 
+      	 <p>While our wedding is in more of a "beachy" setting, we are asking that guests come dressed in <b>beach cocktail attire</b>. 
          <br/>We want to share our day with everyone and take lots of pictures, so come dressed to impress! 
          <br/>A nice skirt or dress, or slacks and a button up/ light blazer will do. 
-         <br/>We definitely want you to be comfortable so come prepared for coastal weather.</p>
-         <hr/>
-		 <h2 className='titleFont bold'><span className="glyphicon glyphicon-ice-lolly greenText" aria-hidden="true"></span> CHILDREN</h2>
-		 <p>Due to the beach setting, children are discouraged from attending.
-		<br/> If you choose to bring your children they must be supervised at all times.</p>
-		<hr/>
+         <br/><b>There will be dirt and sand all over the place so please bring shoes that are comfortable for you.</b>.</p>       
+		 </div>
+		 <div className="padding20 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
+			<h2 className='titleFont bold'><span className="glyphicon glyphicon-ice-lolly greenText" aria-hidden="true"></span> CHILDREN</h2>
+			
+			<p>Due to the beach setting, children are discouraged from attending.
+			<br/> If you choose to bring your children they must be supervised at all times.</p>
+		</div>
+		<div className="padding20 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
+			<h2 className='titleFont bold'><span className="glyphicon glyphicon-cloud greenText" aria-hidden="true"></span> WEATHER</h2>			
+			<p>We are expecting good weather that week 60 to 72 °F.
+			<br/>We still recommend you bring something warm so you can party with us the entire time just in case.
+			<br/>We definitely want you to be comfortable so come prepared for coastal weather.</p>
+		</div>
+		<div className="padding20 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
+			<h2 className='titleFont bold'><i className="fa fa-car greenText" aria-hidden="true"></i> PARKING</h2>			
+			<p>Parking can be tough since we are in a public area near the beach.
+			<br/>There are 59 public spaces next to our venue but unfortunately they cannot be reserved. 
+			<br/>We just want to ask you to make sure you allow yourself enough time to find parking.</p>
+		</div>
       	</div>
 
       </div>

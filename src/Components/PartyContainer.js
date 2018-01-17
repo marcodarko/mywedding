@@ -21,14 +21,16 @@ export default class MainWrapper extends React.Component {
         <div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <hr/>
           <h2 className="titleFont blueText">How We Met</h2>
-          <img src="./images/us.jpg" height="200px" className="roundPic" alt="illustration of us"/>
+          <img src="./images/us.jpg" height="200px" className="roundPic partyPhoto" alt="illustration of us"/>
+          <br/>
           <p>A tale as old as time, boy downloads Tinder..boy swipes right...other boy swipes right too...Ok, just kidding! 
           <br/>But we knew instantly that we were a match  and the rest is history...</p>
           <p></p>
           
           <hr/>
         </div>
-      
+          <br/>
+          <div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <h2 className="titleFont">Family</h2>
           <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-6">
           <Profile  name={'Maria Cano'} roleAt={'Mother'}/>
@@ -42,13 +44,15 @@ export default class MainWrapper extends React.Component {
           <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-6">
             <Profile  name={'Sandra Foley'} roleAt={'Mother'}/>
           </div>
-               
+        </div>
+        <div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">     
         <h2 className="titleFont bold">Best People</h2>
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <Profile photo={'./images/wendy.jpg'} name={'Wendy Pulido'} roleAt={'Best Groomsmaid'}/>
         </div>
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <Profile photo={'./images/sara.jpg'} name={'Sarah Hutmacher'} roleAt={'Best Groomsmaid'}/>
+        </div>
         </div>
       </div>
     );
