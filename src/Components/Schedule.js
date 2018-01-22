@@ -7,19 +7,19 @@ export default class Schedule extends React.Component {
 	this.state={
 		schedule:[
 			{
-				title:"Arrive",time:"2:00 PM"
-			},
-			{
-				title:"Cocktails",time:"2:00 PM"
+				title:"Arrival & Cocktails",time:"2:00 PM"
 			},
 			{
 				title:"Ceremony",time:"3:00 PM"
 			},
 			{
-				title:"Food",time:"4:00 PM"
+				title:"Dinner",time:"4:00 PM"
 			},
 			{
-				title:"End",time:"9:00 PM"
+				title:"Party!",time:"5:00 PM"
+			},
+			{
+				title:"Good-byes",time:"9:00 PM"
 			}
 		]
 	}

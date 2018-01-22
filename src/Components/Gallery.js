@@ -72,6 +72,20 @@ export default class Gallery extends React.Component {
     return (
       <div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center blueText titleFont">
+			<div className="rsvp alert alert-danger alert-dismissible" role="alert">
+			<button style={{fontSize:'56px'}} type="button" className="close whiteText" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h1 className="roundFont heartbeat"><span className="glyphicon glyphicon-envelope" aria-hidden="true"></span> RSVP</h1>
+				<p>
+					Due to a printing error names were not included in our RSVP cards,
+					<br/> if you haven't already done so please add your name(s) to it before sending it.
+				</p>
+				<p>
+					If you already sent your card but didn't get this message in time, please text or 
+					<b><a href="mailto: marcoandconor@gmail.com" rel="noopener noreferrer" target="_blank"> email us.</a></b>
+					<br/>
+					<b>Thank you!</b>
+				</p>
+      </div>
         <hr/>
 				<h2>GALLERY</h2>
 				<hr/>

@@ -5,6 +5,24 @@ body {
   /*background-color: #323232;*/
 }
 
+.rsvp{
+  width: 100%;
+  background-color: #f15252;
+  color: white;
+  font-size: 1em;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.hotel{
+  background-color: #224b80;
+  border-radius: 20px;
+}
+
+.hotel:hover{
+  background-color: #1b3c68;
+}
+
 .navFont{
   font-size: 1.5em;
   font-family: sans-serif;

@@ -11,6 +11,7 @@ export default class Welcome extends React.Component {
     return (
 
       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center tileback whiteText jumbotron noMargin noRounded" style={{paddingTop:'300px', paddingBottom:'300px', borderRadius:'0px'}}>
+      
       	{/* <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
       	<img className="flip-in-hor-top" src="./images/shield.svg" alt="shield" width="60%"/>
         <h1 className="blueText cookiesFont shadow">Conor &amp; Marco</h1>

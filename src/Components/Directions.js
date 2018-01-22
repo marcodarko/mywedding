@@ -12,7 +12,7 @@ export default class Directions extends React.Component {
 				name:'Carlsbad SeaPointe Resort',
 				link:'http://www.carlsbadseapointe.com/',
 				photo:'./images/hotel1.jpg',
-				price:'$169',
+				price:'$$',
 				location:'0.2 Miles',
 				stars:'4'
 			},
@@ -20,7 +20,7 @@ export default class Directions extends React.Component {
 				name:'Hilton Garden Inn',
 				link:'http://hiltongardeninn3.hilton.com/en/hotels/california/hilton-garden-inn-carlsbad-beach-SANCHGI/index.html',
 				photo:'./images/hotel2.jpg',
-				price:'$129',
+				price:'$$',
 				location:'0.6 Miles',
 				stars:'4'
 			},
@@ -28,7 +28,7 @@ export default class Directions extends React.Component {
 				name:'Cape Rey Carlsbad Hilton',
 				link:'https://www.caperey.com/',
 				photo:'./images/hotel3.jpg',
-				price:'$151',
+				price:'$$',
 				location:'2.3 Miles',
 				stars:'4'
 			}
