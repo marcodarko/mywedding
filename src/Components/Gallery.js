@@ -81,7 +81,7 @@ export default class Gallery extends React.Component {
 				</p>
 				<p>
 					If you already sent your card but didn't get this message in time, please text or 
-					<b><a href="mailto: marcoandconor@gmail.com" rel="noopener noreferrer" target="_blank"> email us.</a></b>
+					<b><a target='_blank' rel="noopener noreferrer" href='mailto: conorandmarco@gmail.com'> E-mail us.</a></b>
 					<br/>
 					<b>Thank you!</b>
 				</p>
