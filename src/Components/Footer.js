@@ -23,7 +23,7 @@ export default class Footer extends React.Component {
         <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <h4 className="titleFont">CONTACT US</h4>
           <hr/>
-          <a className="whiteText" target='_blank' rel="noopener noreferrer" href='mailto: conorandmarco@gmail.com'><i className="fa fa-envelope-o " aria-hidden="true"></i> E-mail</a>
+          <a className="whiteText" target='_blank' rel="noopener noreferrer" href='mailto:conorandmarco@gmail.com'><i className="fa fa-envelope-o " aria-hidden="true"></i> E-mail</a>
         </div>
         <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <h4 className="titleFont">Tag Us</h4>
