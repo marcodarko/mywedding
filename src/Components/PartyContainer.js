@@ -11,7 +11,7 @@ export default class MainWrapper extends React.Component {
   render() {
     return (
       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 backWhite blueText text-center" style={{padding:'20px'}}>
-      	<h1 className="titleFont bold">The Grooms</h1>
+      	<h1 className='vonFontSimple gradientFont'>The Grooms</h1>
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <Profile photo={'./images/marcomain.jpg'} name={'Marco Alvarado'} roleAt={'Groom'}/>
         </div>
@@ -26,19 +26,19 @@ export default class MainWrapper extends React.Component {
           </div>
         <div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
           <hr/>
-          <h2 className="titleFont blueText">How We Met</h2>
+          <h2 className='vonFontSimple gradientFont'>How We Met</h2>
           <img src="./images/match.jpg" height="300px" className="roundPic partyPhoto" alt="illustration of us"/>
           <br/>
           <p>A tale as old as time, boy downloads Tinder..boy swipes right...other boy swipes right too...
           <br/>We knew instantly that we were a match  and the rest is herstory...</p>
           <p></p>
-          
+
           <hr/>
         </div>
-          
+
           <br/>
           <div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <h2 className="titleFont">Family</h2>
+          <h2 className='vonFontSimple gradientFont'>Family</h2>
           <div className="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xs-6">
           <Profile  name={'Maria Cano'} roleAt={'Mother'}/>
           </div>
@@ -52,8 +52,8 @@ export default class MainWrapper extends React.Component {
             <Profile  name={'Sandra Foley'} roleAt={'Mother'}/>
           </div>
         </div>
-        <div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">     
-        <h2 className="titleFont bold">Best People</h2>
+        <div className="padding20 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h2 className='vonFontSimple gradientFont'>Best People</h2>
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <Profile photo={'./images/wendy.jpg'} name={'Wendy Pulido'} roleAt={'Best Groomsmaid'}/>
         </div>

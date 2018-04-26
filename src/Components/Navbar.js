@@ -9,7 +9,7 @@ export default class Navbar extends React.Component {
 
   render() {
     return (
-      <nav id="navigationBar" className="navbar navbar-inverse navbar-static-top backBlue" style={{marginBottom:'0px'}}>
+      <nav id="navigationBar" className="navbar navbar-inverse navbar-static-top aniBack" style={{marginBottom:'0px', border:'none'}}>
 	    <div className="container">
 	        <div className="navbar-header">
 	            <button type="button" className="navbar-toggle collapsed themeButton" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -22,11 +22,11 @@ export default class Navbar extends React.Component {
 
 	        <div className="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
 	            <ul className="nav navbar-nav navFont" >
-	            	<li><Link to='/'>Home</Link></li>
-	                <li><Link to='/party'>Party</Link></li>
-	                <li><Link to='/schedule'>Schedule </Link></li>
-	                <li><Link to='/directions'>Directions</Link></li>
-	                <li><Link to='/registry'>Registry</Link></li>
+	            	<li><Link className='whiteText vonFontSimple' to='/'>Home</Link></li>
+	                <li><Link className='whiteText vonFontSimple' to='/party'>Party</Link></li>
+	                <li><Link className='whiteText vonFontSimple' to='/schedule'>Schedule </Link></li>
+	                <li><Link className='whiteText vonFontSimple' to='/directions'>Directions</Link></li>
+	                <li><Link className='whiteText vonFontSimple' to='/registry'>Registry</Link></li>
 	            </ul>
 	        </div>
 	    </div>

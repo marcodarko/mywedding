@@ -63,34 +63,34 @@ export default class Directions extends React.Component {
   renderDirections(){
   	return(
   			<div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding20">
-  				<h1 className="titleFont">DIRECTIONS</h1>
+  				<h1 className='vonFontSimple gradientFont'>DIRECTIONS</h1>
   				<hr/>
-  				<h2>Pelican Point</h2>
+  				<h2 className='vonFontSimple gradientFont'>Pelican Point</h2>
 				<a rel="noopener noreferrer" target="_blank" href="https://www.google.com/maps/place/6311+County+Hwy+S21,+Carlsbad,+CA+92008/@33.1126168,-117.3254062,17z/data=!3m1!4b1!4m5!3m4!1s0x80dc72dd62b640ef:0xad89bc3b8e9d951b!8m2!3d33.112616!4d-117.323212">
 				<h3 className="greenText"><i className="fa fa-map-marker greenText" aria-hidden="true"></i> 6311 County Hwy S21, Carlsbad, CA 92008</h3></a>
 				<hr/>
-  				<h4>Coming from San Diego</h4>
-  				
+  				<h4 className='vonFontSimple gradientFont'>Coming from San Diego</h4>
+
   					<p><i className="fa fa-map-marker greenText" aria-hidden="true"></i> Get on I-5 North</p>
   					<p><i className="fa fa-map-marker greenText" aria-hidden="true"></i> Follow I-5 North to <b>Palomar Airport Road</b></p>
   					<p><i className="fa fa-map-marker greenText" aria-hidden="true"></i> Take exit <b>47</b> from I-5 North</p>
   					<p><i className="fa fa-map-marker greenText" aria-hidden="true"></i> Keep right to continue onto <b>Carlsbad Blvd</b></p>
   					<p><i className="fa fa-map-pin greenText" aria-hidden="true"></i> <b>Pelican Point</b> will be on your right side</p>
-  				
+
   				<hr/>
-  				<h4>Coming from Los Angeles</h4>
-  				
+  				<h4 className='vonFontSimple gradientFont'>Coming from Los Angeles</h4>
+
   					<p><i className="fa fa-map-marker greenText" aria-hidden="true"></i> Get on I-5 South</p>
   					<p><i className="fa fa-map-marker greenText" aria-hidden="true"></i> Follow I-5 South to <b>Palomar Airport Road</b></p>
   					<p><i className="fa fa-map-marker greenText" aria-hidden="true"></i> Take exit <b>47</b> from I-5 South</p>
   					<p><i className="fa fa-map-marker greenText" aria-hidden="true"></i> Keep right to continue onto <b>Carlsbad Blvd</b></p>
   					<p><i className="fa fa-map-pin greenText" aria-hidden="true"></i> <b>Pelican Point</b> will be on your right side</p>
-  				
+
   				<hr/>
   				<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d48864.566384398946!2d-117.33240446572411!3d33.10877652134614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x80d9530fad921e4b%3A0xd3a21fdfd15df79!2sSan+Diego%2C+CA!3m2!1d32.715738!2d-117.1610838!4m5!1s0x80dc72dda89e0561%3A0x93e06168b651b6a3!2sPelican+Point%2C+6311+County+Hwy+S21%2C+Carlsbad%2C+CA+92008!3m2!1d33.1126248!2d-117.3231958!5e0!3m2!1sen!2sus!4v1502997909580" title='map' width="80%" height="400" frameBorder="0" allowFullScreen></iframe>
   				<hr/>
   				<div className="well backBlue whiteText rounded">
-  					<h2><i className="fa fa-exclamation-circle greenText" aria-hidden="true"></i> About the Venue</h2>
+  					<h2 className='vonFontSimple gradientFont'><i className="fa fa-exclamation-circle greenText" aria-hidden="true"></i> About the Venue</h2>
   					<hr/>
   					<p>For questions about the venue please refer to the <b><a href='https://sdnorthcoastinterp.wordpress.com/pelican-point/' target='_blank' rel="noopener noreferrer">Pelican Point Website</a></b>.</p>
   				 	<p>Pelican Point is an outdoor venue located right by the beach. Don't worry tho, you will not be in the sand! Please be sure to bring sunscreen as it may be sunny for a bit until the beautiful sunset.</p>
@@ -102,7 +102,7 @@ export default class Directions extends React.Component {
   renderParking(){
   	return(
   			<div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding20">
-  				<h1 className="titleFont">PARKING</h1>
+  				<h1 className='vonFontSimple gradientFont'>PARKING</h1>
   				<hr/>
   				<table className='table'>
   				<thead>
@@ -140,14 +140,14 @@ export default class Directions extends React.Component {
 				<hr/>
 				<img src='./images/mapParking.jpg' alt='parking map' className='rounded fullWidth'/><br/>
 				<hr/>
-				<h2 className="titleFont">See You There!</h2>
+				<h2 className='vonFontSimple gradientFont'>See You There!</h2>
 				<div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<img src='./images/lifeguard.jpg' alt='lifeguard' className='roundPhoto'/>
 				</div>
 				<div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<img src='./images/stateBeach.jpg' alt='sign' className='roundPhoto'/>
 				</div>
-				
+
   			</div>
   		)
   }
@@ -155,22 +155,22 @@ export default class Directions extends React.Component {
   renderAccomodations(){
   	return(
   			<div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding20 rounded">
-  				<h1 className="titleFont">ACCOMODATIONS</h1>
+  				<h1 className='vonFontSimple gradientFont'>ACCOMODATIONS</h1>
   				<hr/>
-            
+
             <p>There are tons of Hotels in the area and a few just across the street from our venue!</p>
-            
-             <div className="backBlue col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding20 whiteText"> 
-             <h2><i className="fa fa-bed greenText" aria-hidden="true"></i> Stay in Carlsbad</h2>
-            <hr/> 
+
+             <div className="backBlue col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding20 whiteText">
+             <h2 className='vonFontSimple gradientFont'><i className="fa fa-bed greenText" aria-hidden="true"></i> Stay in Carlsbad</h2>
+            <hr/>
             {this.state.hotels && this.state.hotels.map( (doc,index)=>{
 				return <Hotel name={doc.name} stars={doc.stars} location={doc.location} price={doc.price} photo={doc.photo} link={doc.link} key={index}/>
 			})}
 			</div>
-           
+
           <hr/>
   				<div className="well backBlue whiteText rounded">
-  				 	<h2><i className="fa fa-sun-o greenText" aria-hidden="true"></i> Camp at the <em>South Carlsbad State Beach</em></h2>
+  				 	<h2 className='vonFontSimple gradientFont'><i className="fa fa-sun-o greenText" aria-hidden="true"></i> Camp at the <em>South Carlsbad State Beach</em></h2>
 					   <img src="./images/camp.jpg" width="70%" alt='camp in carlsbad' className="rounded"/>
   				 	<hr/>
             <p><b>We are exploring rates and options, if you definitely want to camp here let us know!</b></p>
@@ -200,7 +200,7 @@ export default class Directions extends React.Component {
       	{this.state.renderThis === "" &&
       	<div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center padding20">
 		  	<img src="./images/initials.png" alt='CandM' className="rounded"/>
-      		<h2 className="titleFont bold">Thank you for joining us on our special day!</h2>
+      		<h2 className='titleFont gradientFont'>Thank you for joining us on our special day!</h2>
       		<hr/>
       		<p>Click on the options above for Directions and Parking Information</p>
       	</div>}
