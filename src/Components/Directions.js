@@ -173,7 +173,6 @@ export default class Directions extends React.Component {
   				 	<h2 className='vonFontSimple gradientFont'><i className="fa fa-sun-o greenText" aria-hidden="true"></i> Camp at the <em>South Carlsbad State Beach</em></h2>
 					   <img src="./images/camp.jpg" width="70%" alt='camp in carlsbad' className="rounded"/>
   				 	<hr/>
-            <p><b>We are exploring rates and options, if you definitely want to camp here let us know!</b></p>
   				 	<p>For General information on the <b>South Carlsbad State Beach</b> please visit their <b><a href='http://www.parks.ca.gov/?page_id=660' target='_blank' rel="noopener noreferrer"> Website</a></b></p>
   				    <p>You may also call <a target='_blank' rel="noopener noreferrer" href='tel:7604383143'><i className="fa fa-phone greenText" aria-hidden="true"></i> (760) 438-3143</a></p>
   					<p>To make a reservation online you can visit <b><a href='https://www.reservecalifornia.com/CaliforniaWebHome/' target='_blank' rel="noopener noreferrer"> Reserve California</a></b></p>

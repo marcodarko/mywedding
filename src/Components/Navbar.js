@@ -22,11 +22,11 @@ export default class Navbar extends React.Component {
 
 	        <div className="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
 	            <ul className="nav navbar-nav navFont" >
-	            	<li><Link className='whiteText vonFontSimple' to='/'>Home</Link></li>
-	                <li><Link className='whiteText vonFontSimple' to='/party'>Party</Link></li>
-	                <li><Link className='whiteText vonFontSimple' to='/schedule'>Schedule </Link></li>
-	                <li><Link className='whiteText vonFontSimple' to='/directions'>Directions</Link></li>
-	                <li><Link className='whiteText vonFontSimple' to='/registry'>Registry</Link></li>
+	            	<li><Link style={{'lineHeight': '33px'}} className='whiteText vonFontSimple' to='/'><img src="./favi.png" width="30px" alt="logo"/></Link></li>
+	                <li><Link style={{'lineHeight': '33px'}} className='whiteText vonFontSimple' to='/party'>Party</Link></li>
+	                <li><Link style={{'lineHeight': '33px'}} className='whiteText vonFontSimple' to='/schedule'>Schedule </Link></li>
+	                <li><Link style={{'lineHeight': '33px'}} className='whiteText vonFontSimple' to='/directions'>Directions</Link></li>
+	                <li><Link style={{'lineHeight': '33px'}} className='whiteText vonFontSimple' to='/registry'>Registry</Link></li>
 	            </ul>
 	        </div>
 	    </div>

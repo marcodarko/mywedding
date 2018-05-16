@@ -29,10 +29,9 @@ export default class MainWrapper extends React.Component {
           <h2 className='vonFontSimple gradientFont'>How We Met</h2>
           <img src="./images/match.jpg" height="300px" className="roundPic partyPhoto" alt="illustration of us"/>
           <br/>
-          <p>A tale as old as time, boy downloads Tinder..boy swipes right...other boy swipes right too...
-          <br/>We knew instantly that we were a match  and the rest is herstory...</p>
+          <p className="padding20">A tale as old as time: boy downloads Tinder, boy swipes right, other boy swipes right...
+          <br/>We knew instantly that we were a match and the rest is history!</p>
           <p></p>
-
           <hr/>
         </div>
 
