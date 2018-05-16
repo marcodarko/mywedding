@@ -66,9 +66,16 @@ export default class Directions extends React.Component {
   				<h1 className='vonFontSimple gradientFont'>DIRECTIONS</h1>
   				<hr/>
   				<h2 className='vonFontSimple gradientFont'>Pelican Point</h2>
-				<a rel="noopener noreferrer" target="_blank" href="https://www.google.com/maps/place/6311+County+Hwy+S21,+Carlsbad,+CA+92008/@33.1126168,-117.3254062,17z/data=!3m1!4b1!4m5!3m4!1s0x80dc72dd62b640ef:0xad89bc3b8e9d951b!8m2!3d33.112616!4d-117.323212">
-				<h3 className="greenText"><i className="fa fa-map-marker greenText" aria-hidden="true"></i> 6311 County Hwy S21, Carlsbad, CA 92008</h3></a>
-				<hr/>
+  				<a className="btn btn-primary whiteText" style={{margin:'20px', color: 'white'}} rel="noopener noreferrer" target="_blank" href="https://www.google.com/maps/place/6311+County+Hwy+S21,+Carlsbad,+CA+92008/@33.1126168,-117.3254062,17z/data=!3m1!4b1!4m5!3m4!1s0x80dc72dd62b640ef:0xad89bc3b8e9d951b!8m2!3d33.112616!4d-117.323212"><i className="fa fa-google" aria-hidden="true"></i> Google Maps</a>
+  				<br/>
+          <a className="btn btn-primary whiteText" style={{margin:'20px'}} rel="noopener noreferrer" href="http://maps.apple.com/?daddr=33.1126,-117.3234"><i className="fa fa-apple" aria-hidden="true"></i> Apple Maps</a>
+          <h3 className="greenText"><i className="fa fa-map-marker greenText" aria-hidden="true"></i> 6311 County Hwy S21, Carlsbad, CA 92008</h3>
+  				<div className="alert alert-warning" role="alert">
+            <p>
+              <i className="fa fa-exclamation-triangle" aria-hidden="true"></i> If your navigation device doesn't take you to the right place, you may also search for the <b>Carlsbad SeaPointe Resort</b>. <br/>Our venue is located right across the street towards the ocean. 
+            </p>
+          </div>
+          <hr/>
   				<h4 className='vonFontSimple gradientFont'>Coming from San Diego</h4>
 
   					<p><i className="fa fa-map-marker greenText" aria-hidden="true"></i> Get on I-5 North</p>
