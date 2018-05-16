@@ -13,7 +13,7 @@ export default class MainWrapper extends React.Component {
       <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 backWhite blueText text-center" style={{padding:'20px'}}>
       	<h1 className='vonFontSimple gradientFont'>The Grooms</h1>
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <Profile photo={'./images/marcomain.jpg'} name={'Marco Alvarado'} roleAt={'Groom'}/>
+          <Profile photo={'./images/marcomain.jpg'} name={'Marco Cano'} roleAt={'Groom'}/>
         </div>
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <Profile photo={'./images/conormain.jpg'} name={'Conor Foley'} roleAt={'Groom'}/>
